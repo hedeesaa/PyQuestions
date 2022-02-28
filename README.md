@@ -6,6 +6,8 @@ It's just for fun, good luck! 🍷
 
 **PS**: I got the idea from [Lydia Hallie](https://github.com/lydiahallie/javascript-questions), you should definitly check her repo if you are a JS fan! ❤️
 
+---
+
 ## Questions
 
 #### 1. What's the output?
@@ -34,3 +36,30 @@ When we use it as a input for `good()` function, it will act as the first argume
 
 </p>
 </details>
+
+---
+
+#### 2. What's the output? If user types "Hedeesaa".
+
+```python
+print(len(input("What is your name?")))
+```
+
+- A: `Error`
+- B: `0`
+- C: `18`
+- D: `8`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: D
+
+Python executes functions from inner to outter!  
+So `input("What is your name?")` will be run first, then user enters "Hedeesaa".  
+After that method `len()` will be run over `"Hedeesaa"`. So `len()` will show the length of `"Hedeesaa"` which is `8` :)
+
+</p>
+</details>
+
+---

@@ -7,4 +7,6 @@ def good(s1, s2):
 
 print(good(hello_world()))
 
-##
+## 2. 
+
+print(len(input("What is your name?")))
